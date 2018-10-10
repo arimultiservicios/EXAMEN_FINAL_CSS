@@ -17,3 +17,23 @@ div#inicio {
   align: center;
  }
  
+ div#secundaria {
+ margin: auto;
+ margin-top: -20px;
+ width : 900px;
+ height: 300px;
+ background-color: #d5c75f;
+ border: 0px;
+ }
+ 
+ div#cabecera {
+    margin: auto;
+    margin-top: 20px;
+    width : 900px;
+    height: 100px;
+    background-color: #5b7989;
+    border-radius: 10px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border: 0px;
+ }
