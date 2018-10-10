@@ -1,0 +1,19 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Dancing in the Rainbow;
+    color: #FDFEFE;
+    background-color: #02010a; 
+}
+
+
+div#inicio {
+ margin: auto;
+ margin-top: -20px;
+ width : 900px;
+ height: 300px;
+ background-color: #82c3a6;
+  border: 0px;
+  align: center;
+ }
+ 
