@@ -1,6 +1,4 @@
-  /* Aqui Colocas las sombras para cada imagen de paisaje.html------- 
-  Cada imagen tiene un efecto de sombra de 2px con color #02010a.
-  */
+
 .imagen1{box-shadow: 2px 2px 0px #02010a;}
 .imagen2{box-shadow: 2px 2px 0px #02010a;}
 .imagen3{box-shadow: 2px 2px 0px #02010a;}
@@ -8,11 +6,7 @@
 .imagen5{box-shadow: 2px 2px 0px #02010a;}
 .imagen6{box-shadow: 2px 2px 0px #02010a;}
 
-/* Aqui Colocas el efecto para cada imagen de paisaje.html------- 
-Para la imagen 1, aplica el efecto blur de 10px.
-Para las imágenes 2,4,6 (pares) aplica escala de grises al 100%.
-Para la imagen 3, aplica el efecto sepia de 90%.
-*/
+
 .imagen1:hover {
 	filter: blur(10px);}
 	
