@@ -1,3 +1,4 @@
+/* CSS Document */
 body {
 	margin: 0px;
 	padding: 0px;
@@ -37,3 +38,33 @@ div#inicio {
     -webkit-border-radius: 10px 10px 0px 0px;
     border: 0px;
  }
+
+  div#piepagina {
+ margin: auto;
+ margin-top: -20px;
+ margin-bottom: 20px;
+ width : 900px;
+ height: 210px;
+ background-color: #C6d5c5;
+ border: 0px;
+ border-radius: 0px 0px 10px 10px;
+-moz-border-radius: 0px 0px 10px 10px;
+-webkit-border-radius: 0px 0px 10px 10px;
+ }
+ 
+ #imageninicio {
+position:relative;
+top:40px;
+left:30%;
+width:400px;
+height:230px;
+ }
+
+
+table.blueTable {
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+table.blueTable td, table.blueTable th {
+}

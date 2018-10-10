@@ -1,2 +1,14 @@
 /* CSS Document */
+#boton { font-size: 30px; }
+
+#boton li { display: inline; }
+ 
+#boton li a {  color : #FDFEFE;
+ text-decoration: none;
+ padding: 5px; }
+ 
+ #boton li a:hover {
+   text-decoration: underline;
+	margin-top: -2;
+	padding-bottom: 12px; }
 
