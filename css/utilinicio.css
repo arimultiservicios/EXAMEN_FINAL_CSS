@@ -1,4 +1,8 @@
 /* CSS Document */
+@media screen and (min-width:900px);
+@media screen and (max-width:900px);
+ /* Nuestras nuevas reglas con este ancho o más de pantalla */
+}
 body {
 	margin: 0px;
 	padding: 0px;
@@ -7,64 +11,24 @@ body {
     background-color: #02010a; 
 }
 
-
-div#inicio {
- margin: auto;
- margin-top: -20px;
- width : 900px;
- height: 300px;
- background-color: #82c3a6;
-  border: 0px;
-  align: center;
- }
- 
- div#secundaria {
- margin: auto;
- margin-top: -20px;
- width : 900px;
- height: 300px;
- background-color: #d5c75f;
- border: 0px;
- }
- 
- div#cabecera {
-    margin: auto;
-    margin-top: 20px;
-    width : 900px;
-    height: 100px;
-    background-color: #5b7989;
-    border-radius: 10px;
-    -moz-border-radius: 10px 10px 0px 0px;
-    -webkit-border-radius: 10px 10px 0px 0px;
-    border: 0px;
- }
-
-  div#piepagina {
- margin: auto;
- margin-top: -20px;
- margin-bottom: 20px;
- width : 900px;
- height: 210px;
- background-color: #C6d5c5;
- border: 0px;
- border-radius: 0px 0px 10px 10px;
--moz-border-radius: 0px 0px 10px 10px;
--webkit-border-radius: 0px 0px 10px 10px;
- }
- 
- #imageninicio {
-position:relative;
-top:40px;
-left:30%;
-width:400px;
-height:230px;
- }
+.imagenp{box-shadow: 2px 2px 0px #02010a;border: 2px black solid;}
 
 
-table.blueTable {
-  width: 100%;
-  text-align: center;
-  color: black;
+.imagenp:hover {-webkit-transform: rotate(10deg);transform: rotate(10deg);box-shadow: 2px 2px 0px #82c3a6;
 }
-table.blueTable td, table.blueTable th {
+
+.imagenr{box-shadow: 2px 2px 0px #02010a;border: 2px black solid;}
+
+.imagenr:hover
+{
+	transform: translate(20px,-5px);
+    -webkit-transform: translate(20px,-5px);
+    -o-transform: translate(20px,-5px);
+    -moz-transform: translate(20px,-5px);
+	box-shadow: 2px 2px 0px #82c3a6; 
+}
+
+.imageni
+{
+box-shadow: 2px 2px 0px #02010a;
 }

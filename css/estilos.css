@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'Dancing Script';
+  src: url(DancingScript-Regular.ttf);
+}
+#cabecera{ 
+	text-shadow: 2px 2px 2px #02010a;
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px; 
+	align-items: center;
+	display: flex;
+}
+#footer{ 
+	display: flex;	
+	background-color: #C6d5c5;
+	border-radius: 0px 0px 10px 10px; 
+
+}
+#div1,#div2,#div3,#div4{
+	width: 50%;
+	padding-left: 1em;
+
+}
+@media screen and (max-width: 480px) {
+	#cabecera{  
+		flex-direction: column;
+ 		width: 100%;
+	}
+	#titulo{margin: 0 auto;width: 100%;
+}
+	#titulo,#menu{
+		text-align: center;
+
+
+	}
+	body{
+  		padding-top: 1em;
+  		padding: 1em;
+  	}
+  	.imgP{width: 80%;}
+  	#secundarioPaisaje{
+  		flex-direction: column;
+  		width: 100%;
+  	}
+  	#secundario{
+  		flex-direction: column;
+ 		margin: 0 auto;
+
+  	}
+  	#div1,#div2{margin: 0 auto;width: 100%;padding: 0px;}
+  	.img1:hover{
+    transform: rotate(10deg);
+    box-shadow: 2px 2px #82c3a6;
+}
+.img2:hover{
+    transform: translate(20px, -5px);
+    box-shadow: 2px 2px #82c3a6;
+}
+#footer{  
+		flex-direction: column;
+ 		width: 100%;
+}
+#footer>div{
+	 		
+margin-left: 3em;
+}
+}
+body{
+  padding-top: 1em;
+  background-color: #02010a;
+  font-family: 'Dancing Script';
+  max-width: 900px;
+margin: 0 auto;
+ animation-name: slidein;
+  animation-duration: 1s;
+  }
+  @keyframes slidein {
+    0%{
+      margin-top: 150%;
+    }
+    60%{
+      margin-top: -5%;
+    }
+    100%{
+      margin-top: 0%;
+    }
+}
+
+img{
+	    box-shadow: 2px 2px #02010a;
+
+}
+.inactivo{
+		text-decoration: underline;
+		color: white;
+}
+#titulo,#menu{
+	color: white;
+	display: flex;
+}
+#titulo{
+	padding-left: 1em;
+  order: 1;
+  width: 75%;
+}
+#menu{
+	text-align: right;
+	order: 2;	
+}
+#contenido{
+	background-color: #82c3a6;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#secundario{
+	background-color: #d5c75f ;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: inline-flex;
+	border: 1px
+}
+#secundarioPaisaje{
+	background-color: #d5c75f ;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: inline-flex;
+	border: 1px
+}
+.img1:hover{
+    transform: rotate(10deg);
+    box-shadow: 2px 2px #82c3a6;
+}
+.img2:hover{
+    transform: translate(20px, -5px);
+    box-shadow: 2px 2px #82c3a6;
+}
+.ima1{
+  -webkit-filter:blur(10px);
+  filter: blur(10px);
+}
+.ima3{
+	 -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+}
+.ima2,.ima4,.ima6{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
