@@ -1,0 +1,16 @@
+footer { 
+
+display: flex; color: black; 
+
+border-radius: 0 0 10px 10px; 
+
+background: #C6d5c5;
+
+}
+
+footer>div { 
+
+flex-basis: 0; flex-grow: 1; 
+
+padding-left: 5%; 
+}

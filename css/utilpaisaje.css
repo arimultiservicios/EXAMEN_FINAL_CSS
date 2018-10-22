@@ -1,5 +1,11 @@
 @import url("movil.css");
+.cabecera .titulo {
+}
+.cabecera .nav {
+}
+
 .imagen1{box-shadow: 2px 2px 0px #02010a;}
+
 .imagen2{box-shadow: 2px 2px 0px #02010a;}
 .imagen3{box-shadow: 2px 2px 0px #02010a;}
 .imagen4{box-shadow: 2px 2px 0px #02010a;}
@@ -38,3 +44,6 @@
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);}
+.menu {
+text-decoration: none;
+}

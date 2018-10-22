@@ -1,34 +1,12 @@
-/* CSS Document */
-@media screen and (min-width:900px);
-@media screen and (max-width:900px);
- /* Nuestras nuevas reglas con este ancho o más de pantalla */
-}
-body {
-	margin: 0px;
-	padding: 0px;
-	font-family: Dancing in the Rainbow;
-    color: #FDFEFE;
-    background-color: #02010a; 
-}
-
-.imagenp{box-shadow: 2px 2px 0px #02010a;border: 2px black solid;}
+/* Cada columna debe tener una imagen centrada y enlazar:
+la izquierda "paisajes" aplica un efecto de rotación de 10 grados cuando se coloca el puntero sobre ella,
+ agrega color de sombra #82c3a6 y borde 2px */
 
 
-.imagenp:hover {-webkit-transform: rotate(10deg);transform: rotate(10deg);box-shadow: 2px 2px 0px #82c3a6;
-}
 
-.imagenr{box-shadow: 2px 2px 0px #02010a;border: 2px black solid;}
 
-.imagenr:hover
-{
-	transform: translate(20px,-5px);
-    -webkit-transform: translate(20px,-5px);
-    -o-transform: translate(20px,-5px);
-    -moz-transform: translate(20px,-5px);
-	box-shadow: 2px 2px 0px #82c3a6; 
-}
+/* y la derecha "retratos" aplica un efecto de traslación de 5px hacia arriba y 20px a la derecha
+ cuando se coloca el puntero del ratón sobre ella agrega color de sombra #82c3a6 y borde 2px. */
 
-.imageni
-{
-box-shadow: 2px 2px 0px #02010a;
-}
+
+/* esta es para la imagen grande que esta en el centro*/

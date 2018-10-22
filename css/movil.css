@@ -1,0 +1,21 @@
+@media screen and (min-width: 0px) and (max-width: 900px){
+footer {
+display: flex;
+color: black;
+border-radius: 0 0 10px 10px;
+background: #C6d5c5;
+}
+}
+@media screen and (max-width: 899px){	
+footer>div {
+flex-basis: 0;
+flex-grow: 1;
+padding-left: 5%;
+}
+}
+@media screen and (max-width: 899px) {
+
+footer {
+flex-direction: column;
+}
+}

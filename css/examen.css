@@ -1,0 +1,40 @@
+.img2 .imagenp {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 0px;
+    width : 334.6px;
+    height: auto;
+    flex-direction: row;
+}
+.img2 .imagenr {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 0px;
+    width : 334.6px;
+    height: auto;
+	flex-direction: row;
+}
+.imagenp{box-shadow: 2px 2px 0px #02010a;}
+.imagenp:hover {-webkit-transform: rotate(10deg);transform: rotate(10deg);box-shadow: 2px 2px 0px #82c3a6;}
+.imagenr{box-shadow: 2px 2px 0px #02010a;}
+
+.imagenr:hover
+{
+	transform: translate(20px,-5px);
+    -webkit-transform: translate(20px,-5px); 
+    -o-transform: translate(20px,-5px); 
+    -moz-transform: translate(20px,-5px); 
+	box-shadow: 2px 2px 0px #82c3a6; 
+}
+.imageni
+{
+box-shadow: 2px 2px 0px #02010a;
+}
+.img1 {
+    background: #82c3a6;
+}
+.img2 {
+    background: #d5c75f;
+}
